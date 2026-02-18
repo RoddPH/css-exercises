@@ -12,9 +12,6 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-  display: flex;
-  justify-content: space-between;
-  padding: 8px;
 }
 
 .profile-image {
@@ -47,18 +44,29 @@ a {
 }
 
 ul {
-  margin: 0;
-  padding: 0;
   list-style-type: none;
 }
 
-.left, .right {
+/* My Solution */
+
+.header {
   display: flex;
-  gap: 16px;
+  justify-content: space-between;
   align-items: center;
+  padding: 8px;
+  gap: 16px;
 }
 
-.links {
+.left, .right{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
   display: flex;
   gap: 16px;
 }
+
