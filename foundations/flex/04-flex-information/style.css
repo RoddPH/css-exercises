@@ -27,12 +27,14 @@ img {
 
 /* Solution */
 
-.title {
-  margin-bottom: 32px;
-}
-
 body {
   text-align: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
 }
 
 .container {
@@ -41,6 +43,6 @@ body {
   gap: 52px;
 }
 
-.containeritems {
-  flex-basis: 200px;
+.containertext {
+  width: 200px;
 }
